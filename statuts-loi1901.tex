@@ -5,6 +5,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{array, multirow, tabularx}
 \usepackage{graphicx}
+% TODO : Adapter la classe constitution.cls pour y inclure ces définitions modifiées
 \titleformat{\article}[display]{\filcenter\normalfont\bfseries}{Titre \thearticle}{0pt}{\filcenter\normalfont\bfseries}
 \titleformat{\section}[runin]{\normalfont\scshape}{Article \thesection.}{.5em}{}[\quad]
 \begin{document}
@@ -32,5 +33,37 @@ Il pourra être transféré par simple décision du conseil d'administration; la
 
 \section{Durée}
 La durée de l’association est illimitée.
+
+\article{Composition de l'association}
+% TODO : Adapter la classe constitution.cls pour ne pas remettre à 0 le compteur d'articles à chaque titre
+\setcounter{section}{4}
+
+\section{Membres}
+L'association se compose de :
+\begin{enumerate}
+	\item Membres actifs;
+	\item Membres d'honneur;
+	\item Membres bienfaiteurs.
+\end{enumerate}
+
+\medskip
+Les membres actifs, personnes physiques ou morales, acquittent une cotisation fixée annuellement par l'Assemblée Générale. Ils sont membres de l'Assemblée Générale avec voix délibérative.
+
+\medskip
+Les membres d'honneur sont désignés par l'Assemblée Générale pour les services qu'ils ont rendus ou rendent à l'association. Ils sont dispensés du paiement de la cotisation annuelle et ont le droit de participer à l'Assemblée Générale sans voix délibérative.
+
+\medskip
+Les membres bienfaiteurs qui acquittent une cotisation spéciale fixée par l'Assemblée Générale ont le droit de participer à l'Assemblée Générale avec voix délibérative.
+
+\section{Admission}
+Pour faire partie de l'association, il faut être agréé par le conseil d’administration, qui statue, lors de chacune de ses réunions, sur les demandes d'admission présentées.
+
+\section{Radiation}
+La qualité de membre se perd par :
+\begin{enumerate}
+	\item La démission;
+	\item Le décès;
+	\item La radiation prononcée par le conseil d'administration pour non-paiement de la cotisation ou pour motif grave, l'intéressé ayant été invité par lettre recommandée à fournir des explications devant le conseil d'administration et/ou par écrit. 
+\end{enumerate}
 
 \end{document}
