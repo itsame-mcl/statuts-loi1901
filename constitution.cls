@@ -15,7 +15,7 @@
 %\renewcommand{\partname}{Bylaw}
 
 \titleclass\article{straight}[\part]
-\titleformat{\article}[display]{\filcenter\normalfont\bfseries}{Article \thearticle}{0pt}{\filcenter\normalfont\bfseries}
+\titleformat{\article}[display]{\filcenter\normalfont\bfseries}{Titre \thearticle}{0pt}{\filcenter\normalfont\bfseries}
 \titlespacing*{\article}{0mm}{*4}{*2.3}[0mm]
 \newcounter{article}
 \renewcommand\thearticle{\Roman{article}}
@@ -38,7 +38,7 @@
 \@addtoreset{section}{article}
 \makeatother
 \titleformat{\section}[runin]{\normalfont\scshape}
-{Section \thesection.}{.5em}{}[\quad]
+{Article \thesection.}{.5em}{}[\quad]
 
 \renewcommand{\thesection}{\arabic{section}} 
 \renewcommand{\theenumi}{\alph{enumi}}
