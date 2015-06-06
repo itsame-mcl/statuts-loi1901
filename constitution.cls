@@ -34,9 +34,6 @@
 %{-0.5\baselineskip}%
 %{\normalfont\normalsize\bfseries}}%
 %\makeatother
-\makeatletter
-\@addtoreset{section}{article}
-\makeatother
 \titleformat{\section}[runin]{\normalfont\scshape}
 {Article \thesection.}{.5em}{}[\quad]
 
