@@ -5,26 +5,32 @@
 \usepackage[utf8]{inputenc}
 \usepackage{array, multirow, tabularx}
 \usepackage{graphicx}
+
+% Variables
+\def\nomAssociation{} % Nom complet de l'association
+\def\adresseAssociation{} % Adresse complète du siège social de l'association
+\def\objetAssociation{} % Objet social de l'association
+\def\dateStatuts{} % Date de signature des statuts
+
 \begin{document}
-\title{<Nom de l'association> - Statuts}
+\title{\nomAssociation - Statuts}
 \author{Association déclarée par application de la loi du 1er juillet 1901 et du décret du 16 août 1901}
-\date{<Date>}
+\date{\dateStatuts}
 \maketitle
 \newpage
-	
+
 \article{Présentation de l'association}
 \section{Nom}
-Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre <Nom de l'association>.
+Il est fondé entre les adhérents aux présents statuts une association régie par la loi du 1er juillet 1901 et le décret du 16 août 1901, ayant pour titre \nomAssociation.
 
 \section{Objet}
 Cette association a pour objet de :
 \begin{itemize}
-	\item <Premier objet de l'association>
-	%\item <Deuxième objet de l'association>
+	\item \objetAssociation
 \end{itemize}
 
 \section{Siège social}
-Le siège social est fixé à <Adresse complète du siège>.
+Le siège social est fixé à \adresseAssociation.
 
 Il pourra être transféré par simple décision du conseil d'administration; la ratification par l’assemblée générale sera nécessaire.
 
